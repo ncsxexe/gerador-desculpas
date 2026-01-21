@@ -1,7 +1,7 @@
 import streamlit as st
 import random
 
-st.title("=-=-=-= Gerador de Desculpas =-=-=-=")
+st.title(" Gerador de Desculpas ")
 
 gifs = [
     'https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif',
@@ -12,8 +12,8 @@ gifs = [
 ]
 
 desculpas = [
-    'Não vou nessa merda', 'No. FUCK YOU!', 'Quero que se foda tudo isso',
-    'Me esquece'
+    'Não vou nessa merda', 'FUCK YOU!', 'Quero que se foda tudo isso',
+    'Me esquece', 'Não conte comigo para isso', 'Nem pensar!!!'
 ]
 
 nome = st.text_input('Digite o nome da pessoa que você quer se desculpar: ')
